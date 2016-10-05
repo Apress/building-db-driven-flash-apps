@@ -1,0 +1,1 @@
+<%@ Page Language="vb" AutoEventWireup="false" Codebehind="Register.aspx.vb" Inherits="TriviaGame.Register" %>

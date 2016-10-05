@@ -1,0 +1,156 @@
+.daybutton {
+	font-family : Arial, Helvetica, sans-serif;
+    COLOR: #0054A6;
+    CURSOR: hand;
+	BORDER-COLOR: #FFFFFF;
+    BACKGROUND-COLOR: #DDDDDD;
+    HEIGHT: 25px;
+    TEXT-ALIGN: center;
+    WIDTH: 25px
+}
+input.BUTTON
+{
+    CURSOR: hand;
+	color: #FFFFFF;
+	background-color: #0054A6;
+	font-weight: bold;
+}
+button.BUTTON
+{
+    CURSOR: hand;
+	color: #FFFFFF;
+	background-color: #0054A6;
+	font-weight: bold;
+}
+body {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12;
+	color : Black;
+}
+.fineprintW
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 11;
+	font-weight : bold;
+	color : White;
+}
+.fineprintBK
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 11;
+	font-weight : bold;
+	color : Black;
+}
+.fineprint
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 10;
+	font-weight : normal;
+	color : Black;
+}
+.fineprintBold
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 10;
+	font-weight : bold;
+	color : Black;
+}
+.fineprintBKthin
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 11;
+	font-weight : normal;
+	color : Black;
+}
+td.fineprintBK
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 11;
+	font-weight : bold;
+	color : Black;
+	text-decoration: none;
+}
+td.fineprintBK A:Link
+ {
+	color : Black;
+	text-decoration: none;
+}
+td.fineprintBK A:Visited
+ {
+	color : Black;
+	text-decoration: none;
+}
+td.fineprintBK A:Active
+ {
+	color : Black;
+	text-decoration: none;
+}
+td.fineprintBK A:Hover
+ {
+	color : White;
+}
+td
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 12;
+	color : Black;
+}
+.alert
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 15;
+	color : #870000;
+	font-weight : bold;
+	font-style : oblique;
+}
+.head
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 18;
+	color : #0054A6;
+	font-weight : bold;
+	font-style : oblique;
+	font-variant : small-caps;
+}
+.subHead
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 15;
+	color : #0054A6;
+	font-weight : bold;
+	font-style : oblique;
+	font-variant : small-caps;
+}
+td.topDate
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 10;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-variant : small-caps;
+}
+A:Link
+ {
+	text-decoration: none;
+	color : #870000;
+	padding: 1px;
+}
+A:Active
+ {
+	text-decoration: none;
+	color : #0054A6;
+	padding: 1px;
+}
+A:Visited
+ {
+	text-decoration: none;
+	color : #870000;
+	padding: 1px;
+}
+A:Hover
+ {
+	background-color : #0054A6;
+	color : #FFFFFF;
+	text-decoration: none;
+	padding: 1px;
+}

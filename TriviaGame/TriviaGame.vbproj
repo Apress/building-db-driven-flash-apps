@@ -1,0 +1,489 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{923ABDBA-AAFD-4FAB-91F3-F987C40DE57E}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "TriviaGame"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "TriviaGame"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Answer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Answer.aspx.vb"
+                    DependentUpon = "Answer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Answer.aspx.resx"
+                    DependentUpon = "Answer.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.vb"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx.resx"
+                    DependentUpon = "Default.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GameOver.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "GameOver.aspx.vb"
+                    DependentUpon = "GameOver.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GameOver.aspx.resx"
+                    DependentUpon = "GameOver.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login.aspx.vb"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Login.aspx.resx"
+                    DependentUpon = "Login.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Question.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Question.aspx.vb"
+                    DependentUpon = "Question.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Question.aspx.resx"
+                    DependentUpon = "Question.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Register.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Register.aspx.vb"
+                    DependentUpon = "Register.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Register.aspx.resx"
+                    DependentUpon = "Register.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "triviaGame.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TriviaGame.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Login.aspx.vb"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\Login.aspx.resx"
+                    DependentUpon = "Login.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManageAnswers.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManageAnswers.aspx.vb"
+                    DependentUpon = "ManageAnswers.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManageAnswers.aspx.resx"
+                    DependentUpon = "ManageAnswers.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManageCategories.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManageCategories.aspx.vb"
+                    DependentUpon = "ManageCategories.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManageCategories.aspx.resx"
+                    DependentUpon = "ManageCategories.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManageLevels.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManageLevels.aspx.vb"
+                    DependentUpon = "ManageLevels.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManageLevels.aspx.resx"
+                    DependentUpon = "ManageLevels.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManagePlayers.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManagePlayers.aspx.vb"
+                    DependentUpon = "ManagePlayers.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManagePlayers.aspx.resx"
+                    DependentUpon = "ManagePlayers.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManageQuestions.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManageQuestions.aspx.vb"
+                    DependentUpon = "ManageQuestions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManageQuestions.aspx.resx"
+                    DependentUpon = "ManageQuestions.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManagerMenu.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManagerMenu.aspx.vb"
+                    DependentUpon = "ManagerMenu.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManagerMenu.aspx.resx"
+                    DependentUpon = "ManagerMenu.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\NewAnswer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\NewAnswer.aspx.vb"
+                    DependentUpon = "NewAnswer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\NewAnswer.aspx.resx"
+                    DependentUpon = "NewAnswer.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\NewCategory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\NewCategory.aspx.vb"
+                    DependentUpon = "NewCategory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\NewCategory.aspx.resx"
+                    DependentUpon = "NewCategory.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\NewLevel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\NewLevel.aspx.vb"
+                    DependentUpon = "NewLevel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\NewLevel.aspx.resx"
+                    DependentUpon = "NewLevel.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\NewQuestion.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\NewQuestion.aspx.vb"
+                    DependentUpon = "NewQuestion.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\NewQuestion.aspx.resx"
+                    DependentUpon = "NewQuestion.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\UpdateAnswer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\UpdateAnswer.aspx.vb"
+                    DependentUpon = "UpdateAnswer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\UpdateAnswer.aspx.resx"
+                    DependentUpon = "UpdateAnswer.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\UpdateCategory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\UpdateCategory.aspx.vb"
+                    DependentUpon = "UpdateCategory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\UpdateCategory.aspx.resx"
+                    DependentUpon = "UpdateCategory.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\UpdateLevel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\UpdateLevel.aspx.vb"
+                    DependentUpon = "UpdateLevel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\UpdateLevel.aspx.resx"
+                    DependentUpon = "UpdateLevel.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\UpdatePlayer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\UpdatePlayer.aspx.vb"
+                    DependentUpon = "UpdatePlayer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\UpdatePlayer.aspx.resx"
+                    DependentUpon = "UpdatePlayer.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\UpdateQuestion.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\UpdateQuestion.aspx.vb"
+                    DependentUpon = "UpdateQuestion.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\UpdateQuestion.aspx.resx"
+                    DependentUpon = "UpdateQuestion.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewPlayerHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewPlayerHistory.aspx.vb"
+                    DependentUpon = "ViewPlayerHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewPlayerHistory.aspx.resx"
+                    DependentUpon = "ViewPlayerHistory.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\Includes\Menu.inc"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Includes\ValidateCheck.inc"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
