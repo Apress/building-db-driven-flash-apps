@@ -1,4 +1,4 @@
-#Apress Source Code
+# Apress Source Code
 
 This repository accompanies [*Building Database Driven Flash Applications*](http://www.apress.com/9781590591109) by Noel Jerke and Darin Beard (Apress, 2004).
 
@@ -6,10 +6,10 @@ This repository accompanies [*Building Database Driven Flash Applications*](http
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
-##Releases
+## Releases
 
 Release v1.0 corresponds to the code in the published book, without corrections or updates.
 
-##Contributions
+## Contributions
 
 See the file Contributing.md for more information on how you can contribute to this repository.
